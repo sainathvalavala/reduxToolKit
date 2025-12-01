@@ -4,12 +4,16 @@ import Todolist from "./features/todolist/Todolist";
 
 function App() {
   return (
-    <div>
-      App
-      {/* <div>
+    <div style={{ border: "2px solid red", padding: "10px", marginTop: "3px" }}>
+      App component:
+      <div
+        style={{ border: "2px solid green", padding: "10px", marginTop: "3px" }}
+      >
         <Counter></Counter>
-      </div> */}
-      <div>
+      </div>
+      <div
+        style={{ border: "2px solid  blue", padding: "10px", marginTop: "3px" }}
+      >
         <Todolist></Todolist>
       </div>
     </div>

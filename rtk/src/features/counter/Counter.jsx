@@ -9,6 +9,7 @@ function Counter() {
   return (
     <div>
       <div>
+        counter component<br/>
         counter:{count} <br />
         <button aria-label="Increment value" onClick={() => dispatch(inc())}>
           Increment
